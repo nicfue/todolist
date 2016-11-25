@@ -1,0 +1,92 @@
+body {
+     margin: 0 0 0 0;
+    background: #EDEDED;
+    font-family: roboto;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    list-style-type: none;
+}
+
+ul li {
+    position: relative;
+    padding: 13px 9px 13px 45px;
+    background: #fff;
+    font-size: 18px;
+    transition: 0.2s;
+
+}
+
+ul li:hover {
+    background: #aacbe0;
+}
+
+.list {
+    color: #161e27;
+    
+ }
+
+.remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 13px 12px 13px
+}
+
+.remove:hover {
+    background-color: #302f2f;
+    color: yellow;
+    padding: 13px 13px 13px 13px
+}
+
+.header {
+    background-color: #1c7fc0;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 450px;
+    padding: 10px;
+    float: center;
+    font-size: 16px;
+    color: #161e27;
+}
+
+.addButton {
+    padding: 10px;
+    width: 100px;
+    background: #d9d9d9;
+    color: #161e27;
+    float: center;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.addButton:hover {
+    background-color: #bbb;
+}
+
+
+
+@media screen and (max-width: 480px){
+.header {
+  font-size:0.9em!important;
+}
+
+.addButton {
+  font-size:0.8em!important;
+}
+
+#todoInput {
+    font-size:0.9em!important;
+}
+}
+
